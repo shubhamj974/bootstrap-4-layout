@@ -1,0 +1,31 @@
+
+.my-navbar {
+    .navbar-nav {
+        .active>.nav-link,
+        .nav-link.active,
+        .nav-link.show,
+        .show>.nav-link {
+            color: $pri-color !important;
+        }
+        .nav-link {
+            color: $white-color;
+        }
+    }
+    .navbar-brand {
+        width: 200px;
+        display: inline-block;
+
+        &>img {
+            width: 100%;
+        }
+    }
+    .nav-item {
+        padding-right: 15px;
+
+        .nav-link {
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+    }
+}
+

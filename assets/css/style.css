@@ -1,0 +1,119 @@
+.my-navbar .navbar-nav .active > .nav-link,
+.my-navbar .navbar-nav .nav-link.active,
+.my-navbar .navbar-nav .nav-link.show,
+.my-navbar .navbar-nav .show > .nav-link {
+  color: orange !important;
+}
+.my-navbar .navbar-nav .nav-link {
+  color: #fff;
+}
+.my-navbar .navbar-brand {
+  width: 200px;
+  display: inline-block;
+}
+.my-navbar .navbar-brand > img {
+  width: 100%;
+}
+.my-navbar .nav-item {
+  padding-right: 15px;
+}
+.my-navbar .nav-item .nav-link {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.mainSlider .carousel-item {
+  height: 500px;
+}
+.mainSlider .carousel-item img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel-caption {
+  top: 25%;
+  bottom: auto;
+}
+.carousel-caption p {
+  text-shadow: 0 3px 9px rgba(0, 0, 0, 0.8);
+}
+
+#sticky-heading {
+  background-image: url("/assets/images/lights.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+#sticky-heading::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#videoPlay {
+  background-image: url("/assets/images/media.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+#videoPlay::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.newsLetter .form-inline .form-group.mb-2 {
+  width: 100%;
+}
+
+.footer {
+  font-size: 18px;
+  background-color: #000;
+}
+
+#sticky-about-bg {
+  background-image: url("/assets/images/lights.jpg");
+  background-position: left top;
+  background-attachment: fixed;
+  position: relative;
+}
+#sticky-about-bg::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.owl-nav .owl-prev {
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transform: translate(-45px, 20px);
+          transform: translate(-45px, 20px);
+}
+.owl-nav .owl-next {
+  right: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transform: translate(45px, 20px);
+          transform: translate(45px, 20px);
+}
+
+.owl-carousel .item p {
+  margin-bottom: 0;
+}
+.owl-carousel .owl-dots button {
+  margin-top: 20px;
+}

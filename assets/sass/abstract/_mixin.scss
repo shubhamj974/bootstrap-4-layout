@@ -1,0 +1,13 @@
+@mixin sticky-img($img , $position) {
+    background-image: url($img);
+    background-position: $position;
+    background-attachment: fixed;
+    position: relative;
+}
+
+@mixin owl-position($owl-posi-X , $owl-posiY) {
+    position: absolute;
+    top: 0;
+    transform: translate($owl-posi-X , $owl-posiY);
+
+}

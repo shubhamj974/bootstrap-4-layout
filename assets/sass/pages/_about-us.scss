@@ -1,0 +1,37 @@
+#sticky-about-bg {
+    @include sticky-img('/assets/images/lights.jpg', left top);
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba($dark-color, $alpha: 0.7)
+    }
+}
+
+
+.owl-nav {
+
+    .owl-prev {
+        left: 0;
+        @include owl-position(-45px, 20px)
+    }
+
+    .owl-next {
+        right: 0;
+        @include owl-position(45px, 20px)
+    }
+}
+
+.owl-carousel {
+    .item p {
+        margin-bottom: 0;
+    }
+
+    .owl-dots button {
+        margin-top: 20px;
+    }
+}

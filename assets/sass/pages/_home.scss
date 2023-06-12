@@ -1,0 +1,57 @@
+.mainSlider{
+    .carousel-item{
+        height: 500px;
+        img{
+            height: 100%;
+            object-fit: cover;
+        }
+    }     
+}
+.carousel-caption{
+    top:25%;
+    bottom:auto;
+    p{
+        text-shadow: 0 3px 9px rgba($dark-color, $alpha: 0.8);
+    }
+}
+
+#sticky-heading{
+    @include sticky-img('/assets/images/lights.jpg' , center);
+    &::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color:rgba($dark-color, $alpha: 0.7)
+    }
+}
+
+//   
+
+#videoPlay{
+    @include sticky-img('/assets/images/media.jpg' , center);
+    &::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color:rgba($dark-color, $alpha: 0.7)
+    }
+}
+
+.newsLetter{
+    .form-inline{
+        .form-group.mb-2 {
+            width: 100%;
+        }
+    }
+}
+
+.footer{
+    font-size: 18px;
+    background-color: $dark-color;
+}
