@@ -1,3 +1,7 @@
+.contact .forms .contact-heading {
+  font-size: 32px;
+}
+
 .my-navbar .navbar-nav .active > .nav-link,
 .my-navbar .navbar-nav .nav-link.active,
 .my-navbar .navbar-nav .nav-link.show,
@@ -116,4 +120,11 @@
 }
 .owl-carousel .owl-dots button {
   margin-top: 20px;
+}
+
+
+.photoGallay img{
+  height : 300px;
+  width: 100%;
+  object-fit: cover;
 }
